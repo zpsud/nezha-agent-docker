@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/local/bin/nezha-agent -s $NEZHA_DASHBOARD_SERVER -p $NEZHA_AGANT_PASSWORD $NEZHA_AGANT_EXTRA_FLAGS
