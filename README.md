@@ -1,4 +1,4 @@
-# nezha-agant-docker
+# nezha-agent-docker
 A Docker version of nezha-agant
 
 ```sh
