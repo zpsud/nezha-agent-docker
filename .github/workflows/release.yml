@@ -70,7 +70,7 @@ jobs:
     if: (needs.check.outputs.nezhaAgent != needs.check.outputs.package) || github.event_name == 'workflow_dispatch'
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
